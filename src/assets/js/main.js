@@ -210,7 +210,7 @@ const onPointerUp = (event) => {
             const actualIndex = texIndex < 0 ? projects.length + texIndex : texIndex;
 
             if (projects[actualIndex]?.href) {
-                window.location.href = projects[actualIndex].href;
+                window.location.reload();
             }
         }
     }
