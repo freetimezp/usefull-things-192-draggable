@@ -1,4 +1,5 @@
-import * as THREE from "three";
+import * as THREE from "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.180.0/three.module.js";
+
 import { projects } from "./data.js";
 import { vertexShader, fragmentShader } from "./shaders.js";
 
